@@ -1,0 +1,15 @@
+namespace TrioMotion.TrioPC_NET
+{
+	public enum NativeEventCallbackType
+	{
+		WRITE_FAIL,
+		READ_FAIL,
+		MESSAGE,
+		RECEIVE,
+		BUFFER_OVERRUN,
+		PROGRESS_CREATE,
+		PROGRESS_DESTROY,
+		PROGRESS_SET_POS,
+		GET_CONTROLLER_KEY
+	}
+}
